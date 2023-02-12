@@ -94,7 +94,7 @@ html{
         padding: 0 0;        
     }    
     .foto{        
-        margin: -10vw 5vw;
+        margin: -10vw 2vw;
         width: 250px;
         height: 300px;    
     }
@@ -252,7 +252,7 @@ button{
     }
     button{
         width: 20vw;
-        margin-left: 10vh;
+        margin-left: 23vh;
     }    
 }
 button:hover, .logo:hover, boton_arriba:hover{
