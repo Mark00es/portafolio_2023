@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="estilos.css">  
+    <link rel="icon" href="imagenes/perfil.jpeg">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">  
+</head>
+<body>
+    <header class="principal" id="inicio">
+        <h1 class="titulo_principal">Bienvenido a mi Portafolio</h1>
+        <p class="contenido_titulo">Desarrollador Fullstack</p>
+        <nav class="menu_nav">                        
+            <a href="#presentacion">Presentación</a>
+            <a href="#estudios">Estudios</a>
+            <a href="#portafolio">Portafolio</a>
+            <a href="#contacto">Contacto</a>            
+        </nav>    
+    </header>
+    <main>
+        <section id="presentacion" class="separacion">
+            <h2 class="subtitulo"> PRESENTACIÓN</h2>
+            <div class="contenedor_presentacion">                
+                <img src="/imagenes/foto.png" alt="Marco Escobar" class="foto">            
+                <div class="presentacion_info">
+                    <h4 class="info_presentacion">Name: 
+                        <span class="descripcion_info"> Marco Escobar </span>
+                    </h4>
+                    <h4 class="info_presentacion">Website: 
+                        <span class="descripcion_info">marcoherrada1216@gmail.com</span>
+                    </h4>                    
+                    <h4 class="info_presentacion">Phone: 
+                        <span class="descripcion_info">+591 76436900</span>
+                    </h4>                    
+                    <h4 class="info_presentacion">City: 
+                        <span class="descripcion_info">Cochabamba, Bolivia</span>
+                    </h4>                    
+                    <h4 class="info_presentacion">Age: 
+                        <span class="descripcion_info">22</span>
+                    </h4>                                        
+                <article class="contenedor_habilidades">
+                    <h3 class="subtitulo"> Habilidades</h3>                    
+                    <div class="habilidades_skills">
+                        <div class="habilidades_detalles">
+                            <span>HTML</span>                            
+                        </div>
+                        <div class="menu">
+                            <div id="menu-html"></div>
+                        </div>
+                    </div>
+                    <div class="habilidades_skills">
+                        <div class="habilidades_detalles">
+                            <span>CSS</span>                            
+                        </div>
+                        <div class="menu">
+                            <div id="menu-css"></div>
+                        </div>
+                    </div>
+                    <div class="habilidades_skills">
+                        <div class="habilidades_detalles">
+                            <span>jAVASCRIPT</span>                            
+                        </div>
+                        <div class="menu">
+                            <div id="menu-javascript"></div>
+                        </div>
+                    </div>
+                    <div class="habilidades_skills">
+                        <div class="habilidades_detalles">
+                            <span>ANGULAR</span>                            
+                        </div>
+                        <div class="menu">
+                            <div id="menu-angular"></div>
+                        </div>
+                    </div>
+                </article>
+                </div>
+            </div>                        
+        </section>
+        <section id="estudios" class="separacion">
+            <h2 class="subtitulo"> ESTUDIOS</h2>
+            <h4>Formación Académica</h4>            
+            -- Unidad Educativa Sayari(2006-2014) <br>
+            -- Colegio Cristiano Bilingua Cristo Nación(2014-2016) <br>        
+            -- Unidad Educativa Adventista Cochabamba(2016-2018) <br>
+            -- Universidad Católica Boliviana "San Pablo"-Cochabamba(2019)<br>             
+        </section>
+        <section id="portafolio" class="separacion">
+            <h2 class="subtitulo"> PORTAFOLIO</h2>
+            <!-- <section class="galeria">                
+                <article class="galeria-cont">
+                    <a href=""><img src="imagenes/Manual.jpeg" alt="" href=""></a>                            
+                    <a href="https://github.com/Mark00es/proyectoIngeSoft" target="_blank"><img src="imagenes/wordle.jpeg" alt=""></a>
+                    <a href=""><img src="imagenes/wordle.jpeg" alt=""></a>                    
+                </article>
+            </section> -->
+            <section id="proyectos">        
+                <div class="imagen">
+                    <br><br>
+                    <img src="imagenes/wordle.jpeg" alt=""width="260" height="270">
+                          
+                    <p class="info">
+                        <span class="link"><a href="https://github.com/Mark00es/proyectoIngeSoft" target="_blank">Codigo</a></span>
+                        <span class="link"><a href="https://candid-tulumba-9fe4de.netlify.app/" target="_blank">Demo</a></span>      
+                        <p class="info">Ucb-Wordle</p>
+                        <p>
+                            Un programa que nos ayuda a aprender nuevas palabras jugando
+                            <br>
+                            <span class="html">Html</span>, <span class="css">Css</span> <span class="javascript">Javascript</span>
+                        </p>
+                    </p>                
+                </div>
+                <div class="imagen">
+                    <br><br>
+                    <img src="imagenes/Manual.jpeg" alt="" width="260" height="270" >
+                    <p class="info">                
+                        <span class="link"><a href="https://github.com/Mark00es/guideCode" target="_blank">Codigo</a></span>
+                        <span class="link"><a href="https://manualmarco.netlify.app/" target="_blank">Demo</a></span>      
+                        <p class="info">Manual</p>
+                        <p>                                        
+                            Manual que contiene la mayoria de elementos, atributos, etc. 
+                            <br>
+                            <span class="html">Html</span>, <span class="css">Css</span> <span class="javascript">Javascript</span>
+                        </p>
+                    </p>            
+                </div>                        
+            </section>        
+        </section>           
+        <section id="contacto" class="separacion">
+            <h2 class="subtitulo"> CONTACTO</h2>
+            <div class="contenedor_form">
+                <form class="form_group">
+                    <input class="controlador" type="text" placeholder="Nombre">                 
+                    <input class="controlador" type="email" placeholder="Correo electronico">
+                    <input class="controlador controlador2" type="text" placeholder="Asunto"> 
+                    <textarea name="correo" id="" cols="50" rows="5" placeholder="Mensaje"></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>        
+    </main>    
+    <footer>      
+        <a href="https://wa.me/59176436900"><i class="bi bi-whatsapp logo"></i></a>
+        <a href="https://www.instagram.com/marco_12es/"><i class="bi bi-instagram logo"></i></a>
+        <a href="https://github.com/Mark00es?tab=repositories">git<i class="bi bi-github logo"></i></a>
+        <a href="https://www.linkedin.com/in/marco-fernando-escobar-herrada-52376b23b/"><i class="bi bi-linkedin logo"></i></a>
+        <a href="#inicio" id="boton_arriba"><i class="bi bi-arrow-up-circle"></i></a>
+        <p class="copy">© Copyright Marco Fernando Escobar Herrada 2023</p>   
+     
+    </footer>    
+</body>
+</html>
