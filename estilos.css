@@ -81,6 +81,10 @@ html{
     padding: 0 2rem;    
 }
 @media(max-width: 768px){    
+    *{
+        margin: 0;
+        padding: 0;
+    }
     .titulo_principal{
         padding-top: 1.5rem;        
     }
@@ -282,4 +286,10 @@ footer{
     color: var(--color-letra);
     border-radius: .5rem;
     background-color: var(--fondo-oscuro);
+}
+@media(max-width: 768px){
+    #boton_arriba{                
+        bottom: 0;
+        left: 0;        
+    }    
 }
