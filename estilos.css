@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 :root{
-    --color-fondo: #359e34;
+    --color-fondo: rgb(101, 243, 96);
     --color-letra: #fff;
     --color-oscuro: #000;
-    --fondo-oscuro: green;
+    --fondo-oscuro: darkgreen;
 }
 *{
     margin: 0;
@@ -13,7 +13,7 @@
     box-sizing: border-box;  
 }
 body{
-    background-color: rgba(0, 0, 0,0.1);
+    background-color: rgba(0, 0, 0,0.1);    
 }
 html{
     scroll-behavior: smooth;
@@ -81,10 +81,6 @@ html{
     padding: 0 2rem;    
 }
 @media(max-width: 768px){    
-    *{
-        margin: 0;
-        padding: 0;
-    }
     .titulo_principal{
         padding-top: 1.5rem;        
     }
@@ -96,9 +92,9 @@ html{
     }
     .menu_nav a{        
         padding: 0 0;        
-    }
+    }    
     .foto{        
-        margin: 0 -10px 0 -10px;
+        margin: -10vw 12vw;
         width: 250px;
         height: 300px;    
     }
@@ -108,7 +104,7 @@ html{
         gap: 5rem;
     }      
     .presentacion_info{
-        margin: 0 -120px 0 -120px;
+        margin: 0 -80px 0 -120px;
     }
     .descripcion_info{
         padding: 0 0;
@@ -213,9 +209,9 @@ img{
     color: var(--color-letra);
     padding: .2rem 1rem;
 }
-.link:hover{
-    color:white;    
-    border: 3px solid #359e34;
+
+.info .link a:hover{    
+    background-color: var(--fondo-oscuro);
 }
 .contenedor_form{    
     margin-left: 30vw;
@@ -252,10 +248,11 @@ button{
 @media(max-width: 768px){
     .contenedor_form{        
         margin-left: 10vw;
+        margin-right: 10vw;
     }
     button{
         width: 20vw;
-        margin-left: 15vh;
+        margin-left: 30vh;
     }    
 }
 button:hover, .logo:hover, boton_arriba:hover{
@@ -272,8 +269,7 @@ footer{
     color: var(--color-letra);
     padding: 0.5rem 0.5rem;
     border-radius: .5rem;
-    background-color: var(--color-fondo);    
-    color: var(--color-letra);
+    background-color: var(--color-fondo);        
 }
 .copy{
     margin-top: 1rem;
