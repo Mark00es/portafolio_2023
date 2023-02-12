@@ -251,8 +251,7 @@ button{
         margin-right: 10vw;
     }
     button{
-        width: 20vw;
-        margin-left: 23vh;
+        width: 20vw;        
     }    
 }
 button:hover, .logo:hover, boton_arriba:hover{
