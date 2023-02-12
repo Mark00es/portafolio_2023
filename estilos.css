@@ -29,8 +29,7 @@ html{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 3rem;
-    /* -webkit-text-stroke: 1px #359e34; */
+    font-size: 3rem;    
 }
 .subtitulo{
     text-align: center;    
@@ -79,6 +78,12 @@ html{
     padding: 0 2rem;    
 }
 @media(max-width: 768px){    
+    .titulo_principal{
+        padding-top: 1.5rem;        
+    }
+    .contenido_titulo{
+        padding-top: 1rem;
+    }
     .menu_nav{
         text-align: start;
     }
@@ -96,7 +101,7 @@ html{
         gap: 5rem;
     }      
     .presentacion_info{
-        margin: 0 0 0 -120px;
+        margin: 0 -120px 0 -120px;
     }
     .descripcion_info{
         padding: 0 0;
